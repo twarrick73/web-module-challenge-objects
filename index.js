@@ -50,7 +50,7 @@ const burger = {
   price: 18, 
   category: "Lunch", 
   discount: function(employee){
-    if(employee === "teacher" || person === "student"){
+    if(employee === "teacher" || employee === "student"){
       return this.price - (this.price * 0.25);
      } else if(employee === "public"){
         return this.price - (this.price * .10);
